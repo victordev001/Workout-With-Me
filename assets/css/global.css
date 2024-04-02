@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background-color: var(--roxo);
+    color: var(--azul);
+}
+
+:root{
+    --salmao:rgb(173, 55, 55);
+    --pele:rgb(192, 132, 132);
+    --granito:#323443;
+    --roxo:rgb(48, 26, 88);
+    --preto:rgb(19, 19, 19);
+    --preto1:rgb(0, 0, 0);
+    --branco:rgb(194, 194, 194);
+    --cinzaclaro:rgb(168, 168, 168);
+    --azul:rgb(30, 59, 112);
+    
+}
+
+body{
+    background: linear-gradient(to right,rgb(7, 6, 6)  ,rgb(48, 48, 48),rgb(17, 17, 17));
+}
+
+
+
